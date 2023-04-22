@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .logo-text{
@@ -34,7 +35,40 @@ a{
     padding-right: 24px;
 }
 
-.hero-main{
+.hero-main-text{
     font-size: 48px;
     font-weight: bolder;
+    color: #F9FAF8;
+    width: 350px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.left{
+    margin-left: 235px;
+}
+.hero-subtext{
+    width: 450px;
+}
+.main button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    padding:8px;
+    font-weight: bold;
+}
+.image-placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(117, 119, 129);
+    width: 600px;
+    height: 250px;
+    margin-right: 240px;
 }
