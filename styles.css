@@ -106,7 +106,7 @@ a{
     align-items: center;
     width: 200px;
     flex-wrap: wrap;
-    margin:20px;
+    margin: 20px;
 }
 .subtext{
 
@@ -183,4 +183,15 @@ a{
     font-weight: bold;
     padding: 4px;
     margin-top: 10px;
+}
+
+/*Footer Section*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 35px;
+    margin-top: 70px;
+    color:#e5e7eb;
 }
