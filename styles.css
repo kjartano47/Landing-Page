@@ -98,13 +98,15 @@ a{
     border-radius: 16px;
     width: 200px;
     height: 200px;
+
     
 }
 .image-item{
     display: block;
     align-items: center;
-    width: 260px;
+    width: 200px;
     flex-wrap: wrap;
+    margin:20px;
 }
 .subtext{
 
