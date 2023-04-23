@@ -93,15 +93,25 @@ a{
 .image{
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 5px solid #3882F6;
     border-radius: 16px;
     width: 200px;
     height: 200px;
-    margin: 24px;
+    
 }
-.image-item p{
-    width: 250px;
+.image-item{
+    display: block;
+    align-items: center;
+    width: 260px;
+    flex-wrap: wrap;
+}
+.subtext{
+
     text-align: center;
+    justify-content: center;
+    margin-right:0px;
+    width: 210px;
 }
 /*Quote Section*/
 
@@ -127,4 +137,48 @@ a{
     justify-content: flex-end;
     font-weight: bold;
     padding-left: 550px;
+}
+/*Action Section*/
+
+.action{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.action-card{
+    background-color: #3882F6;
+    width: 800px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.action-left{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.action-heading{
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+.action-info{
+    margin-top: 1px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.action-button{
+    color: white;
+    border-radius: 8px;
+    width: 80px;
+    background-color: #3882F6;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 4px;
+    margin-top: 10px;
 }
